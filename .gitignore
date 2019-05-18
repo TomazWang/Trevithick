@@ -100,3 +100,4 @@ typings/
 #!! ERROR: reactjs is undefined. Use list command to see defined gitignore types !!#
 
 # End of https://www.gitignore.io/api/reactjs
+build/

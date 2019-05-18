@@ -2,7 +2,8 @@
   "scripts": {
     "start": "docusaurus-start",
     "build": "docusaurus-build",
-    "publish-gh-pages": "docusaurus-publish",
+    "build:publish": "npm run build && docusaurus-publish",
+    "publish:gh-page": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"
