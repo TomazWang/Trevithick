@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Test Site', // Title for your website.
   tagline: 'A website for testing',
-  url: 'https://tomazwang.github.io', // Your website URL
-  baseUrl: '/Trevithick/', // Base URL for your project
+  url: 'https://tomazw.com', // Your website URL
+  baseUrl: '/', // Base URL for your project
 
   // Used for publishing and more
   projectName: 'Trevithick',
