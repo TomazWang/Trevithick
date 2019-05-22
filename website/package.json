@@ -2,7 +2,7 @@
   "scripts": {
     "start": "docusaurus-start",
     "build": "docusaurus-build",
-    "build:publish": "npm run build && docusaurus-publish",
+    "build:publish": "export $(cat .env | xargs) && npm run build && docusaurus-publish",
     "publish:gh-page": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
